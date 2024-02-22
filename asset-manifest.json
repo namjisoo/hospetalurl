@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/HosPetal/static/css/main.b9563d29.css",
-    "main.js": "/HosPetal/static/js/main.a06d46f4.js",
+    "main.css": "/HosPetal/static/css/main.427f5b56.css",
+    "main.js": "/HosPetal/static/js/main.a18d6224.js",
     "static/media/NotoSansKR-VariableFont_wght.ttf": "/HosPetal/static/media/NotoSansKR-VariableFont_wght.33752a94ca5252213de8.ttf",
     "static/media/꿀팁_02.png": "/HosPetal/static/media/꿀팁_02.3798ebb88f2d38657a2a.png",
     "static/media/ESFP.png": "/HosPetal/static/media/ESFP.5f3cd54097ca7b04897e.png",
@@ -31,6 +31,7 @@
     "static/media/patten.png": "/HosPetal/static/media/patten.e56d773b930b6d5cd8c7.png",
     "static/media/ISFJ2.png": "/HosPetal/static/media/ISFJ2.de25630aaea727d4d5f9.png",
     "static/media/ISFP2.png": "/HosPetal/static/media/ISFP2.9c87d3347910c2be08f4.png",
+    "static/media/mainimage2.png": "/HosPetal/static/media/mainimage2.aceafbf084a9b6f28cb4.png",
     "static/media/ISTJ2.png": "/HosPetal/static/media/ISTJ2.e9b4848f8195451b5f58.png",
     "static/media/ENFJ.png": "/HosPetal/static/media/ENFJ.98a2f2be256d6f6f80ac.png",
     "static/media/404페이지_02.jpg": "/HosPetal/static/media/404페이지_02.38722c17744cd9a2dcbb.jpg",
@@ -165,19 +166,22 @@
     "static/media/정형외과.svg": "/HosPetal/static/media/정형외과.fc4d4555f43c71047c338a1de5168a34.svg",
     "static/media/정형외과_none.svg": "/HosPetal/static/media/정형외과_none.dcaf11f950f315a8343ac43345e90368.svg",
     "static/media/발바닥_map-1.svg": "/HosPetal/static/media/발바닥_map-1.2dddb05c9347643562e47127ddfd8305.svg",
+    "static/media/insta_logo_r__FFC26F.svg": "/HosPetal/static/media/insta_logo_r__FFC26F.281a61a05e09a8409883cf9778e16ecf.svg",
     "static/media/일반외과.svg": "/HosPetal/static/media/일반외과.27c590d1ba07e3cbe4f15d157bb475de.svg",
     "static/media/내과.svg": "/HosPetal/static/media/내과.503844d4fa1e5e27d79a31100a30a5d7.svg",
     "static/media/일반외과_none.svg": "/HosPetal/static/media/일반외과_none.033a4d590c940a1d19e666996e7f9219.svg",
-    "index.html": "/HosPetal/index.html",
     "static/media/내과_none.svg": "/HosPetal/static/media/내과_none.de3cd4ccc01b8a496c23ccb9b1f9f0ef.svg",
+    "index.html": "/HosPetal/index.html",
     "static/media/icon-like.svg": "/HosPetal/static/media/icon-like.94a0d92425a6bd2c390254dce13e6635.svg",
     "static/media/search_icon.svg": "/HosPetal/static/media/search_icon.2c0ab592ade7a45f66f2b84823d1e5dc.svg",
+    "static/media/Facebook_logo_r_FFC26F.svg": "/HosPetal/static/media/Facebook_logo_r_FFC26F.709bfd0d88ef14eae73f65f197c72c96.svg",
+    "static/media/kakao logo_r__FFC26F.svg": "/HosPetal/static/media/kakao logo_r__FFC26F.83dfcb5f974d69a44b0573c6222f6d3b.svg",
     "static/media/icon-reply.svg": "/HosPetal/static/media/icon-reply.79b9e4b4dc1621d673dce41a03a16866.svg",
-    "main.b9563d29.css.map": "/HosPetal/static/css/main.b9563d29.css.map",
-    "main.a06d46f4.js.map": "/HosPetal/static/js/main.a06d46f4.js.map"
+    "main.427f5b56.css.map": "/HosPetal/static/css/main.427f5b56.css.map",
+    "main.a18d6224.js.map": "/HosPetal/static/js/main.a18d6224.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9563d29.css",
-    "static/js/main.a06d46f4.js"
+    "static/css/main.427f5b56.css",
+    "static/js/main.a18d6224.js"
   ]
 }
