@@ -147,9 +147,10 @@ const HospitalListPage = () => {
         />
       ) : (
         <div className={styles.itemContainer}>
-          {items.map((item) => (
-            <HospitalItem key={item.docId} hospital={item} />
-          ))}
+          {items &&
+            items.map((item) => (
+              <HospitalItem key={item.docId} hospital={item} />
+            ))}
         </div>
       )}
     </div>

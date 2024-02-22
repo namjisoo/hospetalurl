@@ -141,19 +141,10 @@ export const getLastId = async () => {
 // 회원가입 박진현
 const addDatas = async (collectionName, data) => {
   try {
-    const memberData = localStorage.getItem("member");
-    const member = JSON.parse(memberData);
-    const userData = { memberNickName: member?.memberNickName };
-
-    const modifiedData = {
-      ...data,
-      userData: userData,
-    };
-    const docRef = await addDoc(collection(db, collectionName), modifiedData);
-
-    // console.log("Document written with ID: ", docRef.id);
+    const docRef = await addDoc(collection(db, collectionName), data);
+    console.log("Document written with ID: ", docRef.id);
   } catch (error) {
-    // console.error("Error adding document: ", error);
+    console.error("Error adding document: ", error);
     throw error;
   }
   Object.keys(data).forEach((field) => {
