@@ -70,6 +70,7 @@
 
 .closeIcon {
   width: 30px;
+  filter: brightness(-10%);
 }
 
 .form {

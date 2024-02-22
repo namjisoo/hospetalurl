@@ -97,9 +97,6 @@ const PharmacyPage = () => {
     return <p>Loading...</p>;
   }
 
-  const member = JSON.parse(localStorage.getItem("member")).memberId;
-  console.log(member);
-
   const handleLoadMore = () => {
     setVisibleReviews((prevVisibleReviews) => prevVisibleReviews + LIMIT);
   };
