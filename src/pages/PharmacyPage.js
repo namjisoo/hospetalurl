@@ -176,7 +176,7 @@ const PharmacyPage = () => {
           ></Rating>
         </div>
       </div>
-      <Container className={stylesContainer.reviewContainer}>
+      <div className={styles.reviewContainer}>
         {pharmacy && pharmacy.reviews && pharmacy.reviews.length > 0 ? (
           pharmacy?.reviews.slice(0, visibleReviews).map((review, index) => (
             <div className={styles.review} key={index}>
@@ -193,14 +193,11 @@ const PharmacyPage = () => {
             후기 더보기
           </button>
         )}
-      </Container>
+      </div>
       <div className={styles.ReservationBtnWrapper}>
-        <HospetalButton
-          className={stylesBtn.ReservationBtn2}
-          onClick={openModal}
-        >
+        <button className={styles.ReservationBtn2} onClick={openModal}>
           예약하기
-        </HospetalButton>
+        </button>
         <ReservationModalPh
           pharmacy={pharmacy}
           isOpen={isModalOpen}
