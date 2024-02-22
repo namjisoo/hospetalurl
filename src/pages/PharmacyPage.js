@@ -23,6 +23,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 import ReviewFormPh from "../components/ReviewformPh";
 import ChatModalPh from "../components/ChatModalPh";
 import ReservationModalPh from "./../components/ReservationModalPh";
+import LikeDislikeChartPh from "../components/LikeDislikeChartPh";
 
 const LIMIT = 3;
 
@@ -143,7 +144,7 @@ const PharmacyPage = () => {
       <div className={styles.contentLine}></div>
       {/* 차트 */}
       <div className={styles.chartWrapper}>
-        <LikeDislikeChart PharmacyTitle={pharmacyTitle} />
+        <LikeDislikeChartPh PharmacyTitle={pharmacyTitle} />
       </div>
       <div>
         <div className={styles.contentLine2}></div>
