@@ -10,13 +10,10 @@ import {
 import HospetalButton from "../components/HospetalButton";
 import stylesBtn from "../components/HospetalButton.module.css";
 import Rating from "../components/Rating";
-import Card from "../components/Card";
-import Container from "../components/Container";
 import Map from "../components/Map";
 import stylesContainer from "../components/Container.module.css";
 import styles from "./HospitalPage.module.css";
 import mapIcon from "../assets/icon/발바닥_map-1.svg";
-import LikeDislikeChart from "../components/LikeDislikeChart";
 import paperplaneIcon from "../assets/icon/paper plane_w.svg";
 import linkcopyIcon from "../assets/icon/icon_linkcopy.svg";
 import { CopyToClipboard } from "react-copy-to-clipboard";

@@ -107,8 +107,8 @@ const ChatModalPh = ({ pharmacy, onClose }) => {
       <div className={styles.modalContent}>
         <div className={styles.header}>
           <h2>병원 채팅</h2>
-          <button onClick={onClose} className={styles.closeBtn}>
-            <img src={closeIcon} />
+          <button onClick={onClose} className={styles.closeBtns}>
+            <img src={closeIcon} className={styles.closeBtnss} />
           </button>
         </div>
         <div className={styles.messagesContainer} ref={messagesContainerRef}>
