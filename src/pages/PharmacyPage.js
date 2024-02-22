@@ -144,7 +144,7 @@ const PharmacyPage = () => {
       <div className={styles.contentLine}></div>
       {/* 차트 */}
       <div className={styles.chartWrapper}>
-        <LikeDislikeChartPh PharmacyTitle={pharmacyTitle} />
+        <LikeDislikeChartPh pharmacyTitle={pharmacyTitle} />
       </div>
       <div>
         <div className={styles.contentLine2}></div>
